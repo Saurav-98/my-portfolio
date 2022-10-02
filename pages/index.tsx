@@ -4,6 +4,8 @@ import Image from 'next/image';
 import About from '../components/About';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
+import Skills from '../components/Skills';
+import WorkExperience from '../components/WorkExperience';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -12,23 +14,20 @@ const Home: NextPage = () => {
       <Head>
         <title>Saurav's Portfolio!</title>
       </Head>
-
       <Header />
-
       <section id="hero" className="snap-start">
         <Hero />
       </section>
-
-      {/* About */}
       <section id="about" className="snap-center">
         <About />
       </section>
-      {/* Experience */}
 
+      <section className="snap-center" id="experience">
+        <WorkExperience />
+      </section>
       {/* Skills */}
-
+      <Skills />
       {/* Projects */}
-
       {/* Contact Me */}
     </div>
   );

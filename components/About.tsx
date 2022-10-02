@@ -16,7 +16,7 @@ export default function About({}: Props) {
       </h3>
 
       <motion.img
-        src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300"
         initial={{
           x: -200,
           opacity: 0,
